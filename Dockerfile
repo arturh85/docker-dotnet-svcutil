@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0
+FROM mcr.microsoft.com/dotnet/sdk:6.0
 RUN adduser dotnet
 USER dotnet
 RUN dotnet tool install --global dotnet-svcutil
